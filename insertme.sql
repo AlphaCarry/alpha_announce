@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `alpha_recentpost` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `time` varchar(50) DEFAULT NULL,
+  `text` varchar(500) DEFAULT '',
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
